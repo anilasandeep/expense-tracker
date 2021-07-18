@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="exp.css">
+        <h1>EXPENCE TRACKER</h1>
+        <script type="text/javascript" src="exp.js">
+        </script>
+    </head>
+    <body>
+        <input type="text" id="item" placeholder="enter item"><br>
+        <input type="date" id="date" value="date">
+        <input type="text" id="amount" placeholder="amount">
+        <input type="button" id="add" value="ADD" onclick="exp()">
+        <p>Total Expence<br>
+        <table id="exptable" width="50%">
+            <tr><th>Date</th><th>List</th><th>Amount</th></tr><br>
+            
+        </table>
+        </p>
+        <input type="button" onclick="total()" value="Monthly expence">
+        <output id="total">Total Expence for the Month : </output>
+    </body>
+</html> 
